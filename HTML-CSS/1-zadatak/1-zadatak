@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="hr">
+<!-- 
+Zadatak:
+Staviti glavni naslov na stranicu. Napisati 3 paragrafa (minimalno 10 riječi u svakom) s
+naslovima. Odvojiti ih u div cjeline. Svaki naslov mora biti link na http://www.google.com/.
+Divovi moraju biti odvojeni jednom horizontalnom linijom i jednim novim redom. Koristiti
+HTML5 deklaraciju.
+-->
 <head>
 <!-- htmlhead(head.php) -->
     <meta name="author" content="Tomislav Kobescak, 20.9.2019.">
