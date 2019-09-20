@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<!-- htmlhead(head.php) -->
+    <meta name="author" content="Tomislav Kobescak, 20.9.2019.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>OOTsrv</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400|Roboto+Condensed:400|Fjalla+One:400'>
+</head>
+
+<body>
+<div>
+<h2 href="https://google.com">Div 1</h2>
+<p>Deset rijeći: jedan, dva, tri, četri, pet, šest, sedam, osam, devet, deset... </p>
+</div>
+<div>
+<h2 href="https://google.com">Div 2</h2>
+<p>Deset rijeći: jedan, dva, tri, četri, pet, šest, sedam, osam, devet, deset... </p>
+</div>
+<div>
+<h2 href="https://google.com">Div 3</h2>
+<p>Deset rijeći: jedan, dva, tri, četri, pet, šest, sedam, osam, devet, deset... </p>
+</div>
+
+</html>
