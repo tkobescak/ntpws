@@ -1,0 +1,63 @@
+1. zadatak XSLT	- 1
+
+Potrebno je dohvatiti isključivo prvi element Osoba koji je prvo dijete elementa Ljudi. 
+U tekstualno polje XML kopirajte datoteku podaci.xml, a u XPath Statment napišite svoj XPath upit. 
+Rezultat bi trebao sadržavati samo jedan element Osoba sa svim svojim podacima. 
+
+link Online XPATH Tester: https://online-toolz.com/tools/xpath-editor.php
+
+---------------------------------------------
+
+code:
+
+<?xml-stylesheet href=”moj_style.xsl” type=”text/xsl” ?>
+<Ljudi>
+    <Osoba spol="Z">
+        <ime>Ivana</ime>
+        <prezime>Panic</prezime>
+        <starost>32</starost>
+        <adresa>Petra Kresimira IV</adresa>
+        <imenaDjece>
+            <Dijete spol="M">Ivan</Dijete>
+            <Dijete spol="Z">Ana</Dijete>
+            <Dijete spol="M">Petar</Dijete>
+        </imenaDjece>
+    </Osoba>
+    <Osoba spol="M">
+        <ime>Mario</ime>
+        <prezime>Perkovic</prezime>
+        <starost>48</starost>
+        <adresa>Kralja Dmitra Zvonimira</adresa>
+        <imenaDjece>
+    <Dijete spol="Z">Neva</Dijete>
+    <Dijete spol="M">Luka</Dijete>
+        </imenaDjece>
+    </Osoba>
+    <Osoba spol="Z">
+        <ime>Lorena</ime>
+        <prezime>Ivkovic</prezime>
+        <starost>37</starost>
+        <adresa>Crnomerec 25a</adresa>
+        <imenaDjece>
+        <Dijete spol="Z">Ivona</Dijete>
+        </imenaDjece>
+    </Osoba>
+    <Osoba spol="M">
+        <ime>Mirko</ime>
+        <prezime>Solja</prezime>
+        <starost>28</starost>
+        <adresa>Dubrava 25b</adresa>
+        <imenaDjece>
+    <Dijete spol="M">Igor</Dijete>
+    <Dijete spol="M">Mislav</Dijete>
+        </imenaDjece>
+        </Osoba>
+        </Ljudi>
+
+---------------------------------------------
+
+Rješenje:
+
+/Ljudi/Osoba[1]/imenaDjece/Dijete[2]
+
+---------------------------------------------
