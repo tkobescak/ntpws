@@ -1,0 +1,62 @@
+a {
+	color: orange;
+}
+
+a:visited {
+	color: orange;
+}
+
+.prvi {
+	width: 100%;
+	height: 500px;
+}
+
+.drugi {
+	background-color: blue;
+}
+
+.treci {
+	text-align: center;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 300px;
+	height: 200px;
+	background-color: #3399FF;
+	text-align: center;
+	}
+	
+input {
+	background-color: #FFFF9E;
+	}
+	
+.wrapper {
+	margin: 0 auto;
+	width: 800px;
+	height: 250px;
+	overflow: hidden;
+}
+#naslov {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #6699FF;
+	height: 100px;
+	width: 800px;
+	position: relative;
+}
+
+#podnaslov {
+	background-color: #256EB8;
+	width: 800px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+#prvi_nav {
+	float: left;
+}
+	
+#drugi_nav {
+	float: right;
+	}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<knjige>
+	<book red_br="bk101">
+		<Autor>Corets, Eva</Autor>
+		<Naslov>Maeve Ascendant</Naslov>
+		<Zanr>Fantasy</Zanr>
+		<Cijena>115</Cijena>
+		<God_izdanja>2001-03-10</God_izdanja>
+		<Opis>In post-apocalypse England, the mysterious agent known
+				only as Oberon helps to create a new life for
+				the inhabitants of London. Sequel to Maeve Ascendant
+		</Opis>
+	</book>
+		<book red_br="bk102">
+		<Autor>Ralls, Kim</Autor>
+		<Naslov>Midnight Rain</Naslov>
+		<Zanr>Fantasy</Zanr>
+		<Cijena>205</Cijena>
+		<God_izdanja>2000-11-17</God_izdanja>
+		<Opis>After the collapse of a nanotechnology society in
+			England, the young survivors lay the foundation
+			for a new society
+		</Opis>
+	</book>
+</knjige>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Narudba>
+	<Ime>Vito</Ime>
+	<Prezime>Banovac</Prezime>
+	<MjestoStandovanja>
+		<Adresa>Novačka 332a</Adresa>
+		<Grad>Zagreb</Grad>
+		<Drzava>Hrvatska</Drzava>
+	</MjestoStandovanja>
+	<NaruceniArtikl>
+		<Naziv>Komp</Naziv>
+		<Kolicina>1</Kolicina>
+		<Cijena>5000</Cijena>
+	</NaruceniArtikl>
+</Narudba>

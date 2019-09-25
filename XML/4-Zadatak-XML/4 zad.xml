@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Hotel>
+	<Naziv>Grand Hotel Star</Naziv>
+	<Br_zvijezda>4</Br_zvijezda>
+	<AdresaHotela>
+		<Adresa>Avenija Dubrovnik 55</Adresa>
+		<Post_broj>10000</Post_broj>
+		<Grad>Zagreb</Grad>
+		<Drzava>Hrvatska</Drzava>
+	</AdresaHotela>
+	<Kontakt>
+		<Telefon1>0995480048</Telefon1>
+		<Telefon2>012985538</Telefon2>
+		<Fax>584645824</Fax>
+		<Email>info@grand-hotel.hr</Email>
+	</Kontakt>
+	<Website>www.hotel.com</Website>
+</Hotel>

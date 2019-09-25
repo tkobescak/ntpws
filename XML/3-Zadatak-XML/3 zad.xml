@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Osoba spol="M">
+	<Ime>Vito</Ime>
+	<Prezime>Banovac</Prezime>
+	<MjestoStanovanja>
+		<Adresa>Novačka 332a</Adresa>
+		<Grad>Zagreb</Grad>
+		<Drzava>Hrvatska</Drzava>
+	</MjestoStanovanja>
+	<Kontakt>
+		<Mobitel>0995480048</Mobitel>
+		<KucniTelefon>012985538</KucniTelefon>
+		<Email>vbanovac@tvz.hr</Email>
+	</Kontakt>
+</Osoba>
