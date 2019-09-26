@@ -2,7 +2,7 @@
 <html lang="hr">
  
 <!--
-Zadatak:
+2. Zadatak:
 Napisati POST formu koja će slati podatke na data.php stranicu na serveru. U formi mora biti tablica koja
 će se slati na server. Tablica mora sadržavati header username, puno_ime i lozinka.
 Tijelo tablice mora imati 3 reda u kojima će stajati textfieldovi u koje se unose zadani podaci.
@@ -13,15 +13,14 @@ Radio buttoni moraju imati isti name property. Textfieldovima dajte neki name pr
 -->
 
 <head>
-<!-- htmlhead(head.php) -->
-    <meta name="author" content="Tomislav Kobescak, 20.9.2019.">
+    <meta name="author" content="Tomislav Kobescak, 2019.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <title>username - 2. zadatak HTML-CSS ntpws</title>
+    <title>username - 2. zadatak HTML-CSS</title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400|Roboto+Condensed:400|Fjalla+One:400'>
-</head>
+
 
 <style>
 body {
@@ -97,15 +96,17 @@ div.container {
 }
 </style>
 
+</head>
+
 <div class="container">
 <header>
     <h1>username</h1>
 </header>
-<form name="input" action="./php/data.php" method="GET">
+<form name="input" action="./php/data.php" method="POST">
         <label for="uname">Username: </label>
-        <input type=”text” id="uname" name=”uname” placeholder="Korisničko ime..."><br><br>
+        <input type=”text” id="uname" name="uname" placeholder="Korisničko ime..."><br><br>
         <label for="puno_ime">puno_ime: </label>
-        <input type=”text” id="puno_ime" name=”puno_ime” placeholder="puno ime..."><br><br>
+        <input type=”text” id="puno_ime" name="puno_ime" placeholder="puno ime..."><br><br>
         <label for="password">lozinka: </label>
         <input type="password" id="password" name="password" placeholder="lozinka..."><br><br>
 	<input type="radio" id="contactChoice1" name="contact" value="Da" checked>

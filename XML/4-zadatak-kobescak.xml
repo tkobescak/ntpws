@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Karting>
+	<Naziv>Karting VG</Naziv>
+	<Kategorija_staze>2</Kategorija_staze>
+	<AdresaKartinga>
+        <Post_broj>10410</Post_broj>
+        <Grad>Velika Gorica</Grad>
+		<Adresa>Kolodvorska 3</Adresa>
+		<Drzava>Hrvatska</Drzava>
+	</AdresaKartinga>
+	<Kontakt>
+        <Email>info@karting.hr</Email>
+		<Telefon1>014567232</Telefon1>
+		<Telefon2>014567233</Telefon2>
+		<Fax>014567234</Fax>
+	</Kontakt>
+	<Twitter>https://twitter.com/karting</Twitter>
+</Karting>

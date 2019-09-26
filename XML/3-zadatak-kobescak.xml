@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Osoba spol="M">
+	<Ime>Ivo</Ime>
+	<Prezime>Ivić</Prezime>
+	<MjestoStanovanja>
+		<Adresa>Savska 2</Adresa>
+		<Grad>Zagreb</Grad>
+		<Drzava>Hrvatska</Drzava>
+	</MjestoStanovanja>
+	<Kontakt>
+		<Mobitel>0912341567</Mobitel>
+		<KucniTelefon>013546782</KucniTelefon>
+		<Email>ivic@tvz.hr</Email>
+	</Kontakt>
+</Osoba>

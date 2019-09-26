@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- http://validator.w3.org/ -->
-<!DOCTYPE html>
-<html lang="hr">
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <catalog>
     <book id="bk101">
         <author>Gambardella, Matthew</author>
@@ -9,7 +6,7 @@
         <genre>Computer</genre>
         <price>44.95</price>
         <publish_date>2000-10-01</publish_date>
-        <description>An in-depth look at creating applications with XML.</description>
+        <description> An in-depth look at creating applications with XML.</description>
     </book>
     <book id="bk102">
         <author>Ralls, Kim</author>
@@ -20,14 +17,14 @@
         <description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description>
     </book>
     <book id="bk103">
-        <author>Corets, Eva</author>
+	<author>Corets, Eva</author>
         <title>Maeve Ascendant</title>
         <genre>Fantasy</genre>
-        <price>5.95</price>
+        <price>5.95</price> 
         <publish_date>2000-11-17</publish_date>
         <description>After the collapse of a nanotechnology society in England, the young survivors lay the foundation for a new society.</description>
     </book>
-    <book id="bk104">
+        <book id="bk104">
         <author>Corets, Eva</author>
         <title>Oberon's Legacy</title>
         <genre>Fantasy</genre>
@@ -47,7 +44,7 @@
         <author>Randall, Cynthia</author>
         <title>Lover Birds</title>
         <genre>Romance</genre>
-        <price>4.95</price>
+        <price>4.95</price> 
         <publish_date>2000-09-02</publish_date>
         <description>When Carla meets Paul at an ornithology conference, tempers fly as feathers get ruffled.</description>
     </book>
@@ -59,5 +56,4 @@
         <publish_date>2000-11-02</publish_date>
         <description>A deep sea diver finds true love twenty thousand leagues beneath the sea.</description>
     </book>
-</catalog>
-</html>
+</catalog> 
