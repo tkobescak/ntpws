@@ -1,0 +1,10 @@
+$query = "UPDATE cars SET name = ?, color = ?, max_speed = ?, number_of_seats = ? WHERE id = ?;";
+$stmt = $database_connection->prepare($query);
+$stmt -> bind_param('ssiii', $_POST['name'], $_POST['color'], $_POST['max_speed'], $_POST['number_of_seats'], $car_id);
+$stmt -> execute();
+
+/*
+3. Zadatak:
+ID auta koji se treba promijeniti je u varijabli $car_id. Ostale varijable su u globalnoj varijabli $_POST.
+Polja koja morate promijeniti su name, color, max_speed, number_of_seats.
+*/

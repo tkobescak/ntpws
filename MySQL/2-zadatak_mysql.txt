@@ -1,0 +1,10 @@
+$query = "INSERT INTO users SET username = ?, password = ?, first_name = ?, last_name = ?, role_id = ?;";
+$stmt = $database_connection->prepare($query);
+$stmt->bind_param('ssssi', $_POST['username'], $_POST['password'], $_POST['first_name'],$_POST['last_name'],$_POST['role_id']);
+$stmt->execute();
+
+/*
+2. Zadatak:
+Unesite u tablicu users koja ima id, username, password, first_name, last_name i role_id vrijednosti iz globalne varijable $_POST.
+Dakle, $_POST[‘username’], $_POST[‘password’] itd.
+*/
