@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hr">
+ 
+<!--
+2. Zadatak:
+Napisati POST formu koja će slati podatke na data.php stranicu na serveru. U formi mora biti tablica koja
+će se slati na server. Tablica mora sadržavati header username, puno_ime i lozinka.
+Tijelo tablice mora imati 3 reda u kojima će stajati textfieldovi u koje se unose zadani podaci.
+Poslije tablice staviti dva radio buttona vrijednosti => spremiti: DA | NE.
+Mora postojati i button za Submit forme.
+Napomene:
+Radio buttoni moraju imati isti name property. Textfieldovima dajte neki name property također.
+-->
+
+<head>
+    <meta name="author" content="Tomislav Kobescak, 2019.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>username - 2. zadatak HTML-CSS</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400|Roboto+Condensed:400|Fjalla+One:400'>
+
+
+<style>
+body {
+  font-family: Arial;
+}
+
+input {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 300px;
+  background-color: #173f4f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1b8483;
+}
+
+input[type=radio] {
+	width: 50px;
+}
+
+label[for=contactChoice1] {
+  width: 60px;
+  background-color: #f2f2f2;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label[for=contactChoice2] {
+  width: 60px;
+  background-color: #f2f2f2;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.container {
+  width: 300px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+</head>
+
+<div class="container">
+<header>
+    <h1>username</h1>
+</header>
+<form name="input" action="./php/data.php" method="POST">
+        <label for="uname">Username: </label>
+        <input type=”text” id="uname" name="uname" placeholder="Korisničko ime..."><br><br>
+        <label for="puno_ime">puno_ime: </label>
+        <input type=”text” id="puno_ime" name="puno_ime" placeholder="puno ime..."><br><br>
+        <label for="password">lozinka: </label>
+        <input type="password" id="password" name="password" placeholder="lozinka..."><br><br>
+	<input type="radio" id="contactChoice1" name="contact" value="Da" checked>
+    	<label for="contactChoice1">Da</label>
+    	<input type="radio" id="contactChoice2" name="contact" value="Ne">
+	<label for="contactChoice2">Ne</label><br>
+	<input type="submit" value="Prijava">
+	</form>
+</div>
+
+</body>
+</html>
