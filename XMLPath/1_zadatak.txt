@@ -1,0 +1,1 @@
+/Ljudi/Osoba[1]/imenaDjece/Dijete[2]/@spol
